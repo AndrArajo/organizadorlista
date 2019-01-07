@@ -30,8 +30,6 @@ function organizar(){
         data: {itens: itensArr},
         success: function(data){
             
-            console.log(data)
-
             var novoElemento = document.createElement("tbody");
             novoElemento.setAttribute("id","itenstabelaorganizada");
             var itensTabela = document.getElementById("itenstabelaorganizada");

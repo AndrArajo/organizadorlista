@@ -2,8 +2,6 @@
 
 namespace Core;
 
-
-
 class Rotas{
 
     private $urlAtualVetor;
@@ -11,7 +9,6 @@ class Rotas{
 
     function __construct($urlAtual,$args){
         $this->urlAtualVetor = explode("/",$urlAtual ?? "");
-        
         $this->args = $args ;
     }
 
